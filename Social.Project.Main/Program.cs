@@ -36,8 +36,8 @@ public class Program
 
         Post post1 = new Post()
         {
-            Text = "Step It Academy",
-            Comment = "Eziyyetde bizik, Veziyyetde!!",
+            Text = "Salam Salam",
+            Comment = "Sassdadadadasdadad",
             UserId = 1,
         };
 
