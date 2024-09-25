@@ -7,6 +7,7 @@ public class UserDetails : BaseEntity
     public int Id { get; set; }
     public string Name { get; set; }
     public string Surname { get; set; }
+    public Role UserRole { get; set; }
 
     public DateTime Birtday { get; set; }
 
