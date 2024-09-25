@@ -15,7 +15,7 @@ public class SocialDbContext : DbContext
 
     public DbSet<Comment> Comments { get; set; }
 
-    public DbSet<UserDetails> UsersDetails { get; set; }
+    public DbSet<UserDetails> UsersDetailes { get; set; }
 
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
