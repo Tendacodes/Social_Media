@@ -18,5 +18,6 @@ public class UserDetails : BaseEntity
 
     }
 
-    public virtual User User { get; set; }
+    public  User User { get; set; }
+    
 }

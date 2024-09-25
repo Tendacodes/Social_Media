@@ -12,17 +12,17 @@ public class CommentConficuration : IEntityTypeConfiguration<Comment>
     {
         builder.HasKey(c => c.Id);
 
-        
-        builder.HasOne(c => c.Posts)
-               .WithMany(p => p.Comments) 
-               .HasForeignKey(c => c.PostId) 
-               .OnDelete(DeleteBehavior.Cascade); 
 
-        
-        builder.HasOne(c => c.ParentComment) 
-               .WithMany(c => c.Replies)    
-               .HasForeignKey(c => c.ParentCommentId) 
-               .OnDelete(DeleteBehavior.Restrict); 
+        builder.HasMany(c => c.Post)
+               .WithMany(p => p.Comments);
+               //.HasForeignKey(c => c.PostId) 
+               //.OnDelete(DeleteBehavior.Cascade);
+
+
+        //builder.HasOne(c => c.ParentComment)
+        //       .WithMany(c => c.Replies)
+        //       .HasForeignKey(c => c.ParentCommentId)
+        //       .OnDelete(DeleteBehavior.Restrict);
 
     }
 

@@ -17,7 +17,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ConsoleApp31\ClassLibrary1.csproj" />
+    <ProjectReference Include="..\ConsoleApp31\ClassLıbrary1.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Migration\" />
   </ItemGroup>
 
 </Project>

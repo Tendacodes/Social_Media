@@ -10,8 +10,9 @@ public class User : BaseEntity
 
 
     // Navigation Property
-    public virtual ICollection<Post> Posts { get; set; }
     public UserDetails UserDetails { get; set; }
+    public  ICollection<Post> Post { get; set; }
+   
 
 
 

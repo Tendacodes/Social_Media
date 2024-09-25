@@ -18,9 +18,9 @@ public class UserConficuration : IEntityTypeConfiguration<User>
                .HasForeignKey<User>(u => u.UserDetailsId); 
 
         
-        builder.HasMany(u => u.Posts)
-               .WithOne(p => p.Users) 
-               .HasForeignKey(p => p.UserId); 
+        //builder.HasMany(u => u.Posts)
+        //       .WithOne(p => p.User) 
+        //       .HasForeignKey(p => p.UserId); 
 
     }
 

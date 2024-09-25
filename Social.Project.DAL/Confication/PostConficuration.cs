@@ -13,14 +13,14 @@ public class PostConficuration : IEntityTypeConfiguration<Post>
         builder.HasKey(p => p.Id);
 
         
-        builder.HasOne(p => p.Users)
-               .WithMany(u => u.Posts) 
-               .HasForeignKey(p => p.UserId); 
+        builder.HasOne(p => p.User)
+               .WithMany(u => u.Post) 
+               .HasForeignKey(p => p.UserId);
 
-        
+
         builder.HasMany(p => p.Comments)
-               .WithOne(c => c.Posts) 
-               .HasForeignKey(c => c.PostId); 
+               .WithMany(c => c.Post); 
+               //.HasForeignKey(c => c.PostId); 
 
     }
 

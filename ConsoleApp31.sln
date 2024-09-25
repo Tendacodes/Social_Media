@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35004.147
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary1", "ConsoleApp31\ClassLibrary1.csproj", "{5185534D-6CEF-4F4B-883A-DA652E624C14}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassLıbrary1", "ConsoleApp31\ClassLıbrary1.csproj", "{5185534D-6CEF-4F4B-883A-DA652E624C14}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Social.Project.DAL", "Social.Project.DAL\Social.Project.DAL.csproj", "{0EF34DAB-29C6-4EF8-BBF3-98732547FEBD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Social.Project.DAL", "Social.Project.DAL\Social.Project.DAL.csproj", "{0EF34DAB-29C6-4EF8-BBF3-98732547FEBD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Social.Project.Main", "Social.Project.Main\Social.Project.Main.csproj", "{8B16AD0F-D06A-4A7C-8E63-2E8B52D57595}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Social.Project.Main", "Social.Project.Main\Social.Project.Main.csproj", "{8B16AD0F-D06A-4A7C-8E63-2E8B52D57595}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
