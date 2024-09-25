@@ -1,8 +1,10 @@
 ﻿
 
+using ClassLıbrary1.Abstract;
+
 namespace ClassLıbrary1.Concrate;
 
-public class Comment
+public class Comment : BaseEntity
 {
     public object Posts;
 

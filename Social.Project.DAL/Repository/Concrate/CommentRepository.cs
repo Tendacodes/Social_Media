@@ -5,4 +5,6 @@ namespace Social.Project.DAL.Repository.Concrate;
 
 public class CommentRepository : BaseRepository<Comment>
 {
+
+
 }
